@@ -3,5 +3,5 @@ fn main() {
     let s2 = s1; // Move!
     // println!("{}", s1); ERROR!
     let s3 = s2.clone();
-    println!("{}", s2);
+    println!("{} {}", s2, s3);
 }
