@@ -1,5 +1,5 @@
 fn main() {
-    let mut s = String::from("hoge fuga foo bar");
+    let s = String::from("hoge fuga foo bar");
     let word = first_word(&s);
     println!("{}", word);
 }
